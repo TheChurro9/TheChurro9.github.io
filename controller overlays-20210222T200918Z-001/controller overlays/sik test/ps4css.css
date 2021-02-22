@@ -1,10 +1,10 @@
 /*BEGIN PS4 Controller Styling*/
-.ds4.disconnected {
+.controller.ds4 {
     background: url(base.png);
-}
-
-.ds4.disconnected div {
-    display: none;
+    height: 598px;
+    width: 806px;
+    /*    margin-left: -403px;
+        margin-top: -280px;*/
 }
 
 .ds4 .triggers {
@@ -68,27 +68,6 @@
     top: 122px;
 }
 
-/*Not needed, but I like keeping them here for posterity*/
-/*.ds4 .quadrant{
-position: absolute;
-background: url(ps4-assets/player-n.svgz);
-height: 17px;
-width: 111px;
-top: 140px;
-left: 240px;
-}
-.ds4 .p0{
-background-position: 0 -6px;
-}
-.ds4 .p1{
-background-position: 0 -28px;
-}
-.ds4 .p2{
-background-position: 0 -49px;
-}
-.ds4 .p3{
-background-position: 0 -70px;
-}*/
 .ds4 .arrows {
     position: absolute;
     width: 352px;
